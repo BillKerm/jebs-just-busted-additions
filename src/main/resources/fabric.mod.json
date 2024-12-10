@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "jebs-just-busted-additions",
+	"version": "${version}",
+	"name": "Jeb's Just Busted Additions",
+	"description": "A collection of new features that I think are just pretty cool",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jebs-just-busted-additions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jeb.jjba.JebsJustBustedAdditions"
+		],
+		"fabric-datagen": [
+			"jeb.jjba.JebsJustBustedAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"jebs-just-busted-additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

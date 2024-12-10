@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jebs-just-broken-additions:block/recovery_beacon"
+  }
+}
